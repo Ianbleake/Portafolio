@@ -1,4 +1,8 @@
 {
+  "LanguageSelector": {
+    "label": "Elige un idioma",
+    "locale": "{locale, select, es {🇲🇽  Spanish} en {🇨🇴  English} other {Unknown}}"
+  },
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page"

@@ -1,6 +1,7 @@
 import { TfiTwitterAlt } from "react-icons/tfi";
 import { TfiGithub } from "react-icons/tfi";
 import { TfiLinkedin } from "react-icons/tfi";
+import LanguageSelector from "./LanguageSelector";
 
 const Footer = () => {
   return (
@@ -10,6 +11,7 @@ const Footer = () => {
         <p>
           © {new Date().getFullYear()} Joel's Portfolio
         </p>
+        <LanguageSelector/>
         <div className="social_icons">
           <a href="https://twitter.com/olawanle_joel" aria-label="Twitter" target="_blank" rel="noopener noreferrer" >
             <TfiTwitterAlt />

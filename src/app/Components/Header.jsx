@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing.ts";
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
           Joe's Portfolio
         </Link>
       </div>
-      <a href="" className="cta-btn">Resume</a>
+      <Link href="/MyResume" className="cta-btn">Resume</Link>
     </div>
   )
 }
