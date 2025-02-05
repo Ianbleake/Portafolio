@@ -1,0 +1,49 @@
+:root{
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000 ;
+}
+
+.btn {
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  min-height: 50px;
+}
+
+.button_top {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: black;
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+.btn:hover .button_top {
+  transform: translateY(-0.33em);
+}
+
+.btn:active .button_top {
+  transform: translateY(0);
+}
+
+.lanselector {
+  height: 100%;
+  width: auto;
+  padding-right: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  appearance: none;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="%231108a9"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 011.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  background-size: 25px;
+}
+ 

@@ -1,14 +1,20 @@
 import { Link } from "@/i18n/routing.ts";
+import { useTranslations } from "next-intl";
+import Button from "./Button";
+import LanguageSelector from "./LanguageSelector";
 
 const Navbar = () => {
+
+  const t = useTranslations('header')
   return (
     <div className="nav-container">
       <div className="logo">
-        <Link href="/">
-          Joe's Portfolio
-        </Link>
+        <Link href="/">{t('title')}</Link>
       </div>
-      <Link href="/resume" className="cta-btn">Resume</Link>
+      <div className="col" >
+        <Button url={'/resume'} label={t('button')} />
+        <LanguageSelector/>
+      </div>
     </div>
   )
 }

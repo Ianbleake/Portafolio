@@ -4,7 +4,8 @@ import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header'
-import '../../../public/Styles/globals.css'
+import '@/app/Styles/globals.css'
+import '@/app/Styles/components.css'
  
 export default async function LocaleLayout({ children, params}) {
 

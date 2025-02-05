@@ -31,12 +31,10 @@ export default function LocaleSelect({ children, defaultLocale }: Props) {
   }
 
   return (
-    <div className="formselctor w-form">
-      <div>
-        <select defaultValue={defaultLocale} disabled={isPending} onChange={handleSelect} className="country-select w-select" >
+    <div className="btn">
+        <select className="button_top lanselector" defaultValue={defaultLocale} disabled={isPending} onChange={handleSelect} >
           {children}
         </select>
-      </div>
     </div>
   )
 

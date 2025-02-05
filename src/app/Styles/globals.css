@@ -8,11 +8,11 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #1D1E20;
-  color: #DADADB;
-  width: 900px;
+  background-color: #135D66;
+  color: #dadadb;
+  width: 90%;
   margin: 0 auto;
-  padding: 0 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -37,7 +37,7 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  background-color: #1D1E20;
+  background-color: #135D66;
 }
 
 .nav-container .logo {
@@ -57,8 +57,15 @@ li {
   display: inline-block;
 }
 
+
+
 .cta-btn:hover {
   background-color: #DADADB;
+}
+
+.col{
+  display: flex;
+  gap: 20px;
 }
 
 /* Footer */
@@ -81,7 +88,7 @@ hr {
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
-  background-color: #1D1E20;
+  background-color: #135D66;
 }
 
 .footer-container p {
@@ -251,8 +258,11 @@ hr {
   }
 }
 
-.skills-container .grid-skills .skill-card {
-  background-color: #DADADB;
+
+
+/* From Uiverse.io by mrhyddenn */ 
+.skill-card {
+  background: var(--button_color);
   color: #1D1E20;
   display: flex;
   justify-content: center;
@@ -260,37 +270,76 @@ hr {
   gap: 0 1rem;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.9);
   transition: all 0.5s ease-in-out;
-  cursor: context-menu;
+  transition: color 0.3s 0.1s ease-out;
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid black;
+  outline: none;
+  overflow: hidden;
+  text-align: center;
 }
 
-.skills-container .grid-skills i {
-  font-size: 1.5rem;
+.skill-icon{
+  font-size: 40px;
 }
 
-.skills-container .grid-skills .html:hover {
-  background-color: #E34F26;
+.skill-card p {
+  margin: 10px;
 }
 
-.skills-container .grid-skills .css:hover {
-  background-color: #264DE4;
+.skill-card::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
 }
 
-.skills-container .grid-skills .js:hover {
-  background-color: #F7DF1E;
+.skill-card:hover {
+  color: #fff;
+  border: none;
+  background: transparent;
+  transition: background 0.3s ease-in;
 }
 
-.skills-container .grid-skills .react:hover {
-  background-color: #61DAFB;
+.skill-card.html:hover::before {
+  
+  box-shadow: inset 1.5em 0em 0em 10em #E34F26;
 }
 
-.skills-container .grid-skills .node:hover {
-  background-color: #339933;
+.skill-card.css:hover::before {
+  box-shadow: inset 1.5em 0em 0em 10em #1572B6;
 }
 
-.skills-container .grid-skills .python:hover {
-  background-color: #3776AB;
+.skill-card.js:hover::before {
+  box-shadow: inset 1.5em 0em 0em 10em #e7ce10;
+}
+
+.skill-card.react:hover::before {
+  box-shadow: inset 1.5em 0em 0em 10em #61DAFB;
+}
+
+.skill-card.node:hover::before {
+  box-shadow: inset 1.5em 0em 0em 10em  #339933;
+}
+
+.skill-card.python:hover::before {
+  box-shadow: inset 1.5em 0em 0em 10em #3776AB;
 }
 
 /* Projects */
@@ -317,9 +366,13 @@ hr {
 }
 
 .project-card {
-  border: 1px solid #e6e6e6;
+  border: 1px solid black;
+  background-color: var(--button_color);
+  box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.9);
+  color: #1D1E20;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
+
 }
 
 .project-card .project-header {
@@ -331,7 +384,7 @@ hr {
 
 .project-card .folder-icon {
   font-size: 35px;
-  color: #FFCC17;
+  color: black;
 }
 
 .project-header .small-icons {

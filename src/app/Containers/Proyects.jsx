@@ -1,5 +1,5 @@
 import { projectData } from '../utils/ProyectsData';
-import { RiFolderChartFill } from "react-icons/ri";
+import { IoLogoGithub } from "react-icons/io";
 
 const Projects = () => {
   return (
@@ -9,7 +9,7 @@ const Projects = () => {
         {projectData && projectData.map((project) => (
           <div className="project-card" key={project.id}>
             <div className="project-header">
-              <RiFolderChartFill className='fa-regular fa-folder-open folder-icon' />
+              <IoLogoGithub  className='fa-regular fa-folder-open folder-icon' />
               <div className="small-icons">
                 <a href={project.gitHubLink}><i className="fa-brands fa-github"></i></a>
               </div>
