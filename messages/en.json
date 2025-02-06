@@ -1,4 +1,7 @@
 {
+  "Metadata": {
+    "title": "BleakeDev"
+  },
   "LanguageSelector": {
     "label": "Elige un idioma",
     "locale": "{locale, select, es {🇲🇽  Español} en {🇬🇧  Ingles} other {Unknown}}"
@@ -50,21 +53,21 @@
 
     },
     "proyects": {
-      "title": "",
+      "title": "Mis Proyectos",
       "filters": {},
       "cards": {
         "p1": {
-          "name": "",
-          "description": "",
-          "url": "",
+          "name": "test",
+          "description": "local dueuduheudhehdheduihud dbiebduheudehdhe udheuhduehdheuhd deudhuehdueh uehduehduehdhe dhuehduieh",
+          "url": "www.kuboPos.com",
           "data": {}
         }
       }
     },
     "contact": {
-      "title": "",
-      "description": "",
-      "button": ""
+      "title": "¡Trabajemos Juntos!",
+      "description": "Si te interesaria que trabajemos juntos en algun proyecto o necesitas alguna solucion de desarrollo web, o solo tienes alguna pregunta, mi correo siempre esta abierto, solo mandame un correo o DM y hare lo posible por contactarte lo mas pronto posible, Saludos!",
+      "button": "¡Hola!"
     }
   
   },
