@@ -5,9 +5,32 @@
   },
   "header":{
     "title": "BleakeDev",
-    "button": "Curriculum"
+    "navigation": {
+      "url1": {
+        "label": "Curriculum",
+        "route": "/resume"
+      },
+      "url2": {
+        "label": "Contacto",
+        "route": "/contacto"
+      }
+    }
   },
-  "HomePage": {
+  "homePage": {
+    "hero": {},
+    "about": {},
+    "skills": {},
+    "proyects": {},
+    "contact": {}
   
+  },
+  "contact": {
+
+  },
+  "resume": {
+
+  },
+  "footer": {
+    "copy": "Ivan Rangel Portafolio"
   }
 }

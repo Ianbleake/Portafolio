@@ -7,7 +7,6 @@ import Projects from '../Containers/Proyects';
 import Contact from '../Containers/Contact';
  
 export default function HomePage() {
-  const t = useTranslations('HomePage');
   return (
     <div>
       <Hero/>

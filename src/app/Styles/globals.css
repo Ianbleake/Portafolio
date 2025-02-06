@@ -85,10 +85,11 @@ hr {
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
   align-items: center;
   padding: 2rem 0;
   background-color: #135D66;
+  border-top: 2px solid #9B9C9D;
 }
 
 .footer-container p {
@@ -258,9 +259,6 @@ hr {
   }
 }
 
-
-
-/* From Uiverse.io by mrhyddenn */ 
 .skill-card {
   background: var(--button_color);
   color: #1D1E20;
