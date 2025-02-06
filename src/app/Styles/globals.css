@@ -194,6 +194,7 @@ hr {
 
 .about-container .flex-about .about-text {
   width: 50%;
+  text-align: left;
 }
 
 .about-container .flex-about .about-text p {
@@ -324,7 +325,7 @@ hr {
   box-shadow: inset 1.5em 0em 0em 10em #1572B6;
 }
 
-.skill-card.js:hover::before {
+.skill-card.javascript:hover::before {
   box-shadow: inset 1.5em 0em 0em 10em #e7ce10;
 }
 
