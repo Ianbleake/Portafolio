@@ -4,6 +4,27 @@
   --button_outline_color: #000000 ;
 }
 
+.big {
+  color: #ffff !important;
+  font-size: 3rem !important;
+}
+
+.big:hover {
+  transform: scale(1.2);
+}
+
+.github:hover{
+  color: #211F1F !important;
+}
+
+.linkdin:hover{
+  color: #0077b5 !important;
+}
+
+.twitter:hover{
+  color: #1da1f2 !important;
+}
+
 .btn {
   font-size: 17px;
   font-weight: bold;

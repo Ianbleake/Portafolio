@@ -1,10 +1,36 @@
 {
   "LanguageSelector": {
-    "label": "Elige un idioma",
-    "locale": "{locale, select, es {🇲🇽  Spanish} en {🇨🇴  English} other {Unknown}}"
+    "label": "Select a language",
+    "locale": "{locale, select, es {🇲🇽  Español} en {🇬🇧  Ingles} other {Unknown}}"
   },
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+  "header":{
+    "title": "BleakeDev",
+    "navigation": {
+      "url1": {
+        "label": "Resume",
+        "route": "/resume"
+      },
+      "url2": {
+        "label": "Contact",
+        "route": "/contacto"
+      }
+    }
+  },
+  "homePage": {
+    "hero": {},
+    "about": {},
+    "skills": {},
+    "proyects": {},
+    "contact": {}
+  
+  },
+  "contact": {
+
+  },
+  "resume": {
+
+  },
+  "footer": {
+    "copy": "Ivan Rangel Portfolio"
   }
 }
