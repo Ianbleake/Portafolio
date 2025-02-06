@@ -6,6 +6,16 @@ import Footer from '../Components/Footer';
 import Header from '../Components/Header'
 import '@/app/Styles/globals.css'
 import '@/app/Styles/components.css'
+import {getTranslations} from 'next-intl/server';
+ 
+
+export async function generateMetadata({params: {locale}}) {
+  const t = await getTranslations({locale, namespace: 'Metadata'});
+ 
+  return {
+    title: t('title')
+  };
+}
  
 export default async function LocaleLayout({ children, params}) {
 

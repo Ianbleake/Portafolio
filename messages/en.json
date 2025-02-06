@@ -26,13 +26,28 @@
       "description": "Soy un desarrollador apasionado por la tecnología, la innovación y la resolución de problemas. Desde pequeño, los videojuegos despertaron mi curiosidad por la programación, llevándome a explorar el mundo del desarrollo de software. Aunque mi sueño de crear un videojuego está en pausa, descubrí una nueva pasión en el desarrollo de sistemas y soluciones web.<br></br><br></br> Me motiva la idea de crear algo desde cero, convertir una idea en una aplicación funcional que facilite la vida de las personas. Disfruto desarrollando herramientas innovadoras, desde plataformas para visualizar y gestionar finanzas hasta aplicaciones que transforman la productividad en una experiencia gamificada. <br></br><br></br> Mi mayor fortaleza es mi capacidad analítica: puedo descomponer problemas complejos y encontrar soluciones eficientes. Además, soy autodidacta y un gran investigador, lo que me permite aprender rápidamente nuevas tecnologías cuando el proyecto lo requiere. <br></br><br></br> A futuro, mi meta es consolidarme como Full-Stack Developer para desarrollar proyectos más completos y desafiantes. También quiero lanzar mis propias aplicaciones enfocadas en finanzas y hábitos, y eventualmente, fundar una empresa de desarrollo de software y consultoría. <br></br><br></br> Siempre estoy abierto a nuevos retos y oportunidades para seguir creando soluciones que marquen la diferencia. 🚀"
     },
     "skills": {
-      "title": "",
+      "title": "Tecnologias que manejo:",
       "tech": {
-        "t1":{
-          "name": "",
-          "icon": ""
-        }
+          "t1": {
+            "name": "HTML"
+          },
+          "t2": {
+            "name": "CSS"
+          },
+          "t3": {
+            "name": "JavaScript"
+          },
+          "t4": {
+            "name": "React"
+          },
+          "t5": {
+            "name": "Node"
+          },
+          "t6": {
+            "name": "Python"
+          }
       }
+
     },
     "proyects": {
       "title": "",
